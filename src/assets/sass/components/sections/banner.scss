@@ -1,0 +1,36 @@
+.banner{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 113px;
+    padding-bottom: 117px;
+    background-image: url(https://live.verstaem.online/f&b/img/hero-bg.jpg);
+
+    &-title{
+        width: 688px;
+        margin: 0 0 22px;
+        font-family: 'Cormorant';
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 100%;
+        color: #fff;
+    }
+    &-subtitle{
+        width: 688px;
+        margin: 0 0 24px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: #fff;
+    }
+    &-link{
+        color: #bae249;
+        font-weight: 700;
+        font-size: 18px;
+        transition: all 0.2s ease-in-out;
+
+        &:hover{
+            color: #b9e249a4;
+        }
+    }
+}
