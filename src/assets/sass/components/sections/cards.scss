@@ -10,6 +10,11 @@
         border: solid 1px #fff;
         border: 1px solid #0b1919;
         margin-bottom: 20px;
+        @media screen and (max-width: 501px) {
+            max-width: 419px;
+            height: 420px;
+            margin-bottom: 10px
+        }
     }
     .card{
         &-img{
@@ -42,6 +47,11 @@
             line-height: 150%;
             color: #899d9d;
             font-family: 'OpenSans' sans-serif;
+
+            @media screen and (max-width: 501px) {
+                width: auto;
+                height: 96px;
+            }
         }
         &-button{
             display: flex;
@@ -62,5 +72,28 @@
                 background-color: #bae249;
             }
         }
+    }
+}
+.slick-arrow::before{   
+    position: absolute;
+    right: 10px;
+    
+    @media screen and (max-width: 501px) {
+        display: none;
+    }
+}
+.slider-2{
+    display: none;
+
+    @media screen and (max-width: 501px) {
+        display: block;
+    }
+
+}
+.slider-1{
+    display: block;
+
+    @media screen and (max-width: 501px) {
+        display: none;
     }
 }

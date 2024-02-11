@@ -15,11 +15,19 @@ function cards() {
     slidesToShow: 4,
     slidesToScroll: 3
   };
+  const settings2 = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1
+  };
   return (
     <div id='cards' className="cards">
       <div className="container">
         <div className="cards-row">
-            <Slider {...settings}>
+          <div className="slider-1">
+          <Slider {...settings}>
               <div className="cards-card">
                 <div className="card-img">
                   <img src={CardImg1} alt="" />
@@ -60,7 +68,132 @@ function cards() {
                   <div className="card-button">Подробнее</div>
                 </div>
               </div>
+              <div className="cards-card">
+                <div className="card-img">
+                  <img src={CardImg1} alt="" />
+                </div>
+                <div className="card-content">
+                  <h5 className="card-title">Fig. 5 (plant)</h5>
+                  <p className="card-subtitle">Имеется спорная точка зрения, гласящая примерно следующее: активно развивающиеся страны третьего мира своевременно верифицированы.</p>
+                  <div className="card-button">Подробнее</div>
+                </div>
+              </div>
+              <div className="cards-card">
+                <div className="card-img">
+                  <img src={CardImg2} alt="" />
+                </div>
+                <div className="card-content">
+                  <h5 className="card-title">Fig. 6 (flower)</h5>
+                  <p className="card-subtitle">Прежде всего, синтетическое тестирование влечет за собой процесс внедрения и модернизации условий.</p>
+                  <div className="card-button">Подробнее</div>
+                </div>
+              </div>
+              <div className="cards-card">
+                <div className="card-img">
+                  <img src={CardImg3} alt="" />
+                </div>
+                <div className="card-content">
+                  <h5 className="card-title">Fig. 7 (leaf)</h5>
+                  <p className="card-subtitle">Лишь непосредственные участники прогресса неоднозначны и будут в равной степени предоставлены сами себе для работы.</p>
+                  <div className="card-button">Подробнее</div>
+                </div>
+              </div>
+              <div className="cards-card">
+                <div className="card-img">
+                  <img src={CardImg4} alt="" />
+                </div>
+                <div className="card-content">
+                  <h5 className="card-title">Fig. 8 (wood)</h5>
+                  <p className="card-subtitle">Базовый вектор развития не даёт нам иного выбора, кроме определения новых предложений.</p>
+                  <div className="card-button">Подробнее</div>
+                </div>
+              </div>
           </Slider>
+          </div>
+          <div className="slider-2">
+          <Slider {...settings2}>
+              <div className="cards-card">
+                <div className="card-img">
+                  <img src={CardImg1} alt="" />
+                </div>
+                <div className="card-content">
+                  <h5 className="card-title">Fig. 1 (plant)</h5>
+                  <p className="card-subtitle">Имеется спорная точка зрения, гласящая примерно следующее: активно развивающиеся страны третьего мира своевременно верифицированы.</p>
+                  <div className="card-button">Подробнее</div>
+                </div>
+              </div>
+              <div className="cards-card">
+                <div className="card-img">
+                  <img src={CardImg2} alt="" />
+                </div>
+                <div className="card-content">
+                  <h5 className="card-title">Fig. 2 (flower)</h5>
+                  <p className="card-subtitle">Прежде всего, синтетическое тестирование влечет за собой процесс внедрения и модернизации условий.</p>
+                  <div className="card-button">Подробнее</div>
+                </div>
+              </div>
+              <div className="cards-card">
+                <div className="card-img">
+                  <img src={CardImg3} alt="" />
+                </div>
+                <div className="card-content">
+                  <h5 className="card-title">Fig. 3 (leaf)</h5>
+                  <p className="card-subtitle">Лишь непосредственные участники прогресса неоднозначны и будут в равной степени предоставлены сами себе для работы.</p>
+                  <div className="card-button">Подробнее</div>
+                </div>
+              </div>
+              <div className="cards-card">
+                <div className="card-img">
+                  <img src={CardImg4} alt="" />
+                </div>
+                <div className="card-content">
+                  <h5 className="card-title">Fig. 4 (wood)</h5>
+                  <p className="card-subtitle">Базовый вектор развития не даёт нам иного выбора, кроме определения новых предложений.</p>
+                  <div className="card-button">Подробнее</div>
+                </div>
+              </div>
+              <div className="cards-card">
+                <div className="card-img">
+                  <img src={CardImg1} alt="" />
+                </div>
+                <div className="card-content">
+                  <h5 className="card-title">Fig. 5 (plant)</h5>
+                  <p className="card-subtitle">Имеется спорная точка зрения, гласящая примерно следующее: активно развивающиеся страны третьего мира своевременно верифицированы.</p>
+                  <div className="card-button">Подробнее</div>
+                </div>
+              </div>
+              <div className="cards-card">
+                <div className="card-img">
+                  <img src={CardImg2} alt="" />
+                </div>
+                <div className="card-content">
+                  <h5 className="card-title">Fig. 6 (flower)</h5>
+                  <p className="card-subtitle">Прежде всего, синтетическое тестирование влечет за собой процесс внедрения и модернизации условий.</p>
+                  <div className="card-button">Подробнее</div>
+                </div>
+              </div>
+              <div className="cards-card">
+                <div className="card-img">
+                  <img src={CardImg3} alt="" />
+                </div>
+                <div className="card-content">
+                  <h5 className="card-title">Fig. 7 (leaf)</h5>
+                  <p className="card-subtitle">Лишь непосредственные участники прогресса неоднозначны и будут в равной степени предоставлены сами себе для работы.</p>
+                  <div className="card-button">Подробнее</div>
+                </div>
+              </div>
+              <div className="cards-card">
+                <div className="card-img">
+                  <img src={CardImg4} alt="" />
+                </div>
+                <div className="card-content">
+                  <h5 className="card-title">Fig. 8 (wood)</h5>
+                  <p className="card-subtitle">Базовый вектор развития не даёт нам иного выбора, кроме определения новых предложений.</p>
+                  <div className="card-button">Подробнее</div>
+                </div>
+              </div>
+          </Slider>
+          </div>
         </div>
       </div>
     </div>
