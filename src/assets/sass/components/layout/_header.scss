@@ -62,17 +62,15 @@
         align-items: center;
         column-gap: 30px;
         
-        
         svg{
             cursor: pointer;
 
+            &:hover{
+                stroke: #506829;
+            }
+
             path{
                 fill: #bae249;
-                transition: all 0.2s ease-in-out;
-    
-                &:hover{
-                    fill: #b9e249a4;
-                }
             }
         }
     }

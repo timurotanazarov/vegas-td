@@ -1,4 +1,5 @@
 import React from 'react'
+import ArrowIcon from '../../assets/icons/ArrowIcon'
 
 function banner() {
   return (
@@ -8,7 +9,7 @@ function banner() {
           <h2 className="banner-title">Крупнейшая коллекция природных артефактов</h2>
           <p className="banner-subtitle">Являясь всего лишь частью общей картины, интерактивные прототипы, которые представляют собой яркий пример европейского типа политической и социальной культуры.</p>
           <a href="#" className="banner-link">
-          Исследовать
+          Исследовать <ArrowIcon />
           </a>
         </div>
       </div>

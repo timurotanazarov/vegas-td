@@ -25,7 +25,7 @@ function header() {
           <nav className="header-navbar">
             <a href="#banner" className="header-link">Каталог</a>
             <a href="#cards" className="header-link">Галерея</a>
-            <a href="#" className="header-link">О лаборатории</a>
+            <a href="#about" className="header-link">О лаборатории</a>
             <a href="#" className="header-link">Контакты</a>
           </nav>
           <div className="header-icons">
@@ -42,7 +42,7 @@ function header() {
       <div className={modal? 'header-drawer active':'header-drawer'}>
         <a href="#banner" className="header-drawer__link">Каталог</a>
         <a href="#cards" className="header-drawer__link">Галерея</a>
-        <a href="#" className="header-drawer__link">О лаборатории</a>
+        <a href="#about" className="header-drawer__link">О лаборатории</a>
         <a href="#" className="header-drawer__link">Контакты</a>
       </div>
     </div>

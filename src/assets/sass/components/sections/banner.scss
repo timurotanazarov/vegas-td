@@ -37,6 +37,9 @@
         }
     }
     &-link{
+        display: flex;
+        align-items: center;
+        column-gap: 6px;
         color: #bae249;
         font-weight: 700;
         font-size: 18px;
