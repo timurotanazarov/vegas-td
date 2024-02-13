@@ -1,0 +1,30 @@
+.footer{
+    &-top{
+        padding-top: 18px;
+        padding-bottom: 18px;
+        background-color: #0b1919;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &__icons{
+            display: flex;
+            column-gap: 30px;
+        }
+        &__link{
+            svg, path{
+                &:hover{
+                    transition: all 0.2s;
+                    fill: #bae249;
+                    object-fit: cover;
+                }
+            }
+        }
+    }
+    marquee{
+        background-color: #1d2f30;
+        display: flex;
+        align-items: center;
+        gap: 50px;
+    }
+}

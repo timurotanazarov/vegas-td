@@ -26,7 +26,7 @@ function header() {
             <a href="#banner" className="header-link">Каталог</a>
             <a href="#cards" className="header-link">Галерея</a>
             <a href="#about" className="header-link">О лаборатории</a>
-            <a href="#" className="header-link">Контакты</a>
+            <a href="#contacts" className="header-link">Контакты</a>
           </nav>
           <div className="header-icons">
             <SearchIcon />
@@ -43,7 +43,7 @@ function header() {
         <a href="#banner" className="header-drawer__link">Каталог</a>
         <a href="#cards" className="header-drawer__link">Галерея</a>
         <a href="#about" className="header-drawer__link">О лаборатории</a>
-        <a href="#" className="header-drawer__link">Контакты</a>
+        <a href="#contacts" className="header-drawer__link">Контакты</a>
       </div>
     </div>
   )
