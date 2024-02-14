@@ -10,6 +10,11 @@
         padding-top: 50px;
         padding-bottom: 50px;
     }
+    @media screen and (max-width: 430px) {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
 
     &-title{
         width: 688px;
@@ -20,10 +25,14 @@
         line-height: 100%;
         color: #fff;
         @media screen and (max-width: 501px) {
-            width: 418px;
+            max-width: 418px;
             font-size: 48px;
             margin-bottom: 30px;
         }
+        @media screen and (max-width: 430px) {
+           width: 250px;
+        }
+    
     }
     &-subtitle{
         width: 688px;
@@ -50,3 +59,75 @@
         }
     }
 }
+.banner-title {
+	-webkit-animation: banner-title 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: banner-title 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+ @-webkit-keyframes banner-title {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    100% {
+      -webkit-transform: translateY(-150px);
+              transform: translateY(-150px);
+    }
+  }
+  @keyframes banner-title {
+    0% {
+      -webkit-transform: translateY(-100px);
+              transform: translateY(-100px);
+    }
+    100% {
+      -webkit-transform: translateY(0px);
+              transform: translateY(0px);
+    }
+  }
+.banner-subtitle {
+	-webkit-animation: banner-subtitle 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: banner-subtitle 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+ @-webkit-keyframes banner-subtitle {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    100% {
+      -webkit-transform: translateY(-150px);
+              transform: translateY(-150px);
+    }
+  }
+  @keyframes banner-subtitle {
+    0% {
+      -webkit-transform: translateY(-100px);
+              transform: translateY(-100px);
+    }
+    100% {
+      -webkit-transform: translateY(0px);
+              transform: translateY(0px);
+    }
+  }
+.banner-link {
+	-webkit-animation: banner-link 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: banner-link 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+ @-webkit-keyframes banner-link {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    100% {
+      -webkit-transform: translateY(-150px);
+              transform: translateY(-150px);
+    }
+  }
+  @keyframes banner-link {
+    0% {
+      -webkit-transform: translateY(-100px);
+              transform: translateY(-100px);
+    }
+    100% {
+      -webkit-transform: translateY(0px);
+              transform: translateY(0px);
+    }
+  }

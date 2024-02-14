@@ -5,7 +5,6 @@ import Logo from '../../../public/images/Logo.jpg';
 import { MenuOutlined } from '@ant-design/icons';
 
 function header() {
-
   const [modal, setModal] = useState(false);
     function togglDropdown(){
         setModal(!modal)

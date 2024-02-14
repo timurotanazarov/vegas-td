@@ -12,11 +12,10 @@
             column-gap: 30px;
         }
         &__link{
-            svg, path{
+            svg{
+                transition: all 0.3s;
                 &:hover{
-                    transition: all 0.2s;
-                    fill: #bae249;
-                    object-fit: cover;
+                    stroke: #bae249;
                 }
             }
         }
