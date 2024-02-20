@@ -17,6 +17,11 @@
                 &:hover{
                     stroke: #bae249;
                 }
+
+                @media screen and (max-width: 501px) {
+                    stroke: #bae249;
+                    stroke-opacity: 0.7;
+                }
             }
         }
     }
